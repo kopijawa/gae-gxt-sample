@@ -1,0 +1,20 @@
+Global setup:
+ Download and install Git
+  git config --global user.name "Your Name"
+  git config --global user.email kopijawa@gmail.com
+  Add your public key
+        
+Next steps:
+  mkdir gae-gxt-sample
+  cd gae-gxt-sample
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:kopijawa/gae-gxt-sample.git OR https://kopijawa@github.com/kopijawa/gae-gxt-sample.git
+  git push -u origin master
+      
+Existing Git Repo?
+  cd existing_git_repo
+  git remote add origin git@github.com:kopijawa/gae-gxt-sample.git OR https://kopijawa@github.com/kopijawa/gae-gxt-sample.git
+  git push -u origin master

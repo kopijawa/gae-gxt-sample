@@ -1,0 +1,5 @@
+*.html -crlf
+*.xml -crlf
+*.properties -crlf
+*.java -crlf
+*.MF -crlf
